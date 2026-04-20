@@ -98,3 +98,78 @@ hr,
 * {
     border-color: rgba(255, 255, 255, 0.1) !important;
 }
+
+button[class*="pill"],
+button[class*="Button"],
+[class*="filter-item"] {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    /* Adjust 0.4 for darkness */
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+button[class*="pill"]:hover,
+button[class*="Button"]:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: rgba(0, 212, 255, 0.5) !important;
+    /* Matches your cyan theme */
+}
+
+:focus,
+#main:focus,
+.focus-visible,
+[data-test="main-container"]:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#app,
+#root,
+#main {
+    outline: none !important;
+}
+
+div[class*="searchBar"],
+input[type="search"] {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: none !important;
+    border-radius: 20px !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+._container_d3060bb._visible_4bed23e,
+[class*="_subMenuContainer_"] {
+    background: rgba(0, 0, 0, 0) !important;
+
+    border-radius: 12px !important;
+}
+
+._contextMenu_8606b2d,
+._actionList_1cd4298,
+[data-type="list-container__context-menu"],
+._container_d3060bb ul,
+._container_d3060bb li,
+[class*="_subMenuContainer_"] * {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+[class*="_title_"],
+[class*="_header_"] {
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+[class*="_sectionHeader_"] {
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+[class*="_submenu_"] {
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
