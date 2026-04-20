@@ -28,7 +28,6 @@ A custom CSS theme for the Tidal-HiFi Electron wrapper. This theme replaces the 
 | **Blur Intensity** | `backdrop-filter` | `blur(25px)` |
 | **Glass Color** | `background-color` | `rgba(0, 0, 0, 0.4)` |
 | **Borders** | `border` | `1px solid rgba(255, 255, 255, 0.1)` |
-
 | **Shadows** | `box-shadow` | `0 10px 40px rgba(0, 0, 0, 0.6)` |
 
 ## 🧪 Technical Note
