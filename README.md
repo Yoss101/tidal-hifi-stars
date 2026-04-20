@@ -1,5 +1,6 @@
 # 🌊 Tidal-HiFi: Frosted Glass UI
-<img src="https://files.yoss.dev/view/1776690855405-901662845.png" width="500">
+![Screenshot](screenshot.png)
+
 A custom CSS theme for the Tidal-HiFi Electron wrapper. This theme replaces the heavy, solid dark menus with a modern frosted glass aesthetic, allowing the background to shine through while maintaining a premium feel.
 
 ## ✨ Key Features
