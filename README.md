@@ -1,6 +1,6 @@
-# 🌊 Tidal-HiFi: Frosted Glass UI
-![Screenshot](screenshot.png)
-
+# 🌊 Tidal-HiFi: Stars UI
+<img width="2559" height="1348" alt="screenshot" src="https://github.com/user-attachments/assets/f6bd8bff-79db-42d0-b31c-bc89a27492fd" />
+<br>
 A custom CSS theme for the Tidal-HiFi Electron wrapper. This theme replaces the heavy, solid dark menus with a modern frosted glass aesthetic, allowing the background to shine through while maintaining a premium feel.
 
 ## ✨ Key Features
